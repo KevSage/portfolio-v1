@@ -3,22 +3,29 @@ import styled from "styled-components";
 
 const Nav = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300&display=swap");
-
+  background: indigo;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   width: 100%;
   color: #97d8b2;
   padding: 20px;
+  z-index: 1000;
+  height: 90px;
+  position: fixed;
+  top: 0%;
 `;
 const Logo = styled.div`
   display: flex;
+  position: fixed;
+  color: royalblue;
   justify-content: flex-start;
   width: 50%;
   font-size: 1.2rem;
   font-family: "Audiowide", cursive;
+  top: 0px;
   h4 {
-    border: 5px solid #97d8b2;
+    border: 5px solid ;
     border-radius: 100%;
     padding 10px;
   }

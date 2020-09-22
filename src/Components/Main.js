@@ -7,10 +7,12 @@ const Greeting = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 40%;
+  width: 100%;
   align-items: flex-start;
   text-align: left;
   margin-top: 50px;
+  height: 100vh;
+  background-color: indigo;
 
   p {
     font-family: "Audiowide", cursive;
@@ -27,8 +29,9 @@ const Greeting = styled.div`
 const Intro = styled.div`
   font-family: "Poppins", sans-serif;
   color: #97d8b2;
-  margin: 20px 0;
+  margin: 10px auto;
   font-size: 1.1rem;
+  width: 50%;
   span {
     color: royalblue;
   }
@@ -55,14 +58,17 @@ const Button = styled.button`
 const Main = () => {
   return (
     <Greeting>
-      <p>Hi, my name is</p>
-      <h2>Kevin Sage. Call me Kev</h2>
-      <h2>
-        I specialize in <span>React</span> |{" "}
-        <span>Ruby on Rails Development</span>
-      </h2>
+      <Intro>
+        <p>Hi, my name is</p>
+        <h2>Kevin Sage. Call me Kev</h2>
+        <h2>
+          I specialize in <span>React</span> |{" "}
+          <span>Ruby on Rails Development</span>
+        </h2>
+      </Intro>
       <Intro>
         Lifelong <span>Jazz Musician. </span>
+        <span>Educator. </span>
         <span>World Traveller. </span>
         <span>Language Enthusiast. </span>
         <p>
@@ -71,8 +77,14 @@ const Main = () => {
           Syntax, pattern recognition and process, skills that I've acquired
           from life experience translates exceptionally well to writing code.
         </p>
+        <Button>Holla at me!</Button>
       </Intro>
-      <Button>Holla at me!</Button>
+      {/* <div class="hero" id="tsparticles">
+        <div className="w wave"></div>
+        <div className="w wave2"></div>
+        <div className="w wave3"></div>
+        <div className="w wave4"></div>
+      </div> */}
     </Greeting>
   );
 };

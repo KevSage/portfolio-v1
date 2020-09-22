@@ -3,11 +3,12 @@ import styled from "styled-components";
 import { FaGithub, FaYoutube, FaLinkedin } from "react-icons/fa";
 
 const Social_Menu = styled.div`
+  z-index: 1000;
   display: flex;
   position: fixed;
   flex-direction: column;
   margin-top: 400px;
-  color: #97d8b2;
+  color: royalblue;
   font-size: 2.5rem;
   ul {
     list-style-type: none;

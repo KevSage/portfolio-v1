@@ -5,8 +5,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: indigo;
   box-sizing: border-box;
+}
+.w {
+  position: absolute;
+  top: 100%;
+  left: -25vw;
+  right: 0px;
+  background: url(https://i.koya.io/whitewave2.svg);
+  background-position: center;
+}
+.wave {
+  height: 200px;
+  transform: translateY(-40px);
+}
+.wave2 {
+  height: 240px;
+  transform: translateY(-80px);
+  background-size: 960px 240px;
+  opacity: 0.5;
+  left: -80vw;
+  right: -5vw;
+}
+.wave3 {
+  height: 220px;
+  transform: translateY(-120px);
+  background-size: 880px 220px;
+  opacity: 0.33;
+  left: 0vw;
+  right: -20vw;
+}
+.wave4 {
+  height: 280px;
+  transform: translateY(-160px);
+  background-size: 1120px 280px;
+  opacity: 0.1;
+  left: 0vw;
+  right: -40vw;
 }
 
 code {
