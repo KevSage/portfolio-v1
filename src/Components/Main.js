@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 const Greeting = styled.div`
-  @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300&display=swap");
   margin: auto auto;
   display: flex;
   justify-content: center;
@@ -16,7 +15,7 @@ const Greeting = styled.div`
     /* bottom, image */
       url("https://images.unsplash.com/photo-1545968340-848cddd981ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
   p {
-    font-family: "Audiowide", cursive;
+    font-family: "Poppins", sans-serif;
     color: #0099ff;
   }
   h2 {

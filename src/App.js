@@ -16,7 +16,7 @@ function App() {
       <Main />
       <Wave />
       <Technology />
-      {/* <Projects /> */}
+      <Projects />
       {/* <Wave2 /> */}
       <About />
     </div>

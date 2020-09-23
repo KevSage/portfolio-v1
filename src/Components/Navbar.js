@@ -22,13 +22,9 @@ const Logo = styled.div`
   justify-content: flex-start;
   width: 50%;
   font-size: 1.2rem;
-  font-family: "Audiowide", cursive;
+  font-family: "Poppins", sans-serif;
   top: 0px;
-  h4 {
-    border: 5px solid ;
-    border-radius: 100%;
-    padding 10px;
-  }
+  letter-spacing: 5px;
 `;
 const Menu = styled.div`
   display: flex;
@@ -57,7 +53,7 @@ const Navbar = () => {
   return (
     <Nav>
       <Logo classname="logo">
-        <h4>KS</h4>
+        <h4>KEV SAGE</h4>
       </Logo>
       <Menu>
         <Menu_Items>

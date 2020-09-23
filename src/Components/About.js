@@ -4,8 +4,8 @@ import Pic from "./Portfoliopic.jpeg";
 const Bio = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300&display=swap");
   font-family: "Poppins", sans-serif;
-  color: #0099ff;
-  font-size: 1.2rem;
+  color: #97d8b2;
+  font-size: 1.1rem;
   width: 30%;
   margin-right: 100px;
   display: block;
