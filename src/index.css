@@ -49,13 +49,11 @@ body {
 .hero {
   height: 100vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  /* background-image: url("Portfoliopic.jpeg"); */
   background: linear-gradient(rgba(75, 0, 130, 0.95), rgba(75, 0, 130, 0.8)),
-    url(./Media/Portfoliopic.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
+    url("./Media/Calligraphy.jpg");
+  background-size: contain;
 }
 
 code {

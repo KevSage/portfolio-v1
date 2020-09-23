@@ -16,6 +16,7 @@ import {
   SiGithub,
   SiJest,
   SiReactrouter,
+  SiPostman,
 } from "react-icons/si";
 
 const Tech = styled.div`
@@ -106,6 +107,10 @@ const Technology = () => {
           <li>
             <SiRails />
             <div>Rails</div>
+          </li>
+          <li>
+            <SiPostman />
+            <div>Postman</div>
           </li>
           <li>
             <SiMysql />
