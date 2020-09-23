@@ -43,6 +43,17 @@ body {
   left: 0vw;
   right: -40vw;
 }
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-image: url("Portfoliopic.jpeg"); */
+  background: linear-gradient(rgba(75, 0, 130, 0.95), rgba(75, 0, 130, 0.8)),
+    url(./Media/Portfoliopic.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

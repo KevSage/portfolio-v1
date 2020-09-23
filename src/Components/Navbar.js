@@ -18,7 +18,7 @@ const Nav = styled.div`
 const Logo = styled.div`
   display: flex;
   position: fixed;
-  color: royalblue;
+  color: #0099ff;
   justify-content: flex-start;
   width: 50%;
   font-size: 1.2rem;
@@ -46,7 +46,7 @@ const Menu_Items = styled.div`
     font-family: "Poppins", sans-serif;
   }
   li:hover {
-    color: royalblue;
+    color: #0099ff;
     border-bottom: 2px solid royalblue;
     transition-timing-function: ease-in;
     cursor: pointer;

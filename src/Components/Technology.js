@@ -18,40 +18,40 @@ import {
   SiReactrouter,
 } from "react-icons/si";
 
-const Technology = () => {
-  const Tech = styled.div`
-    padding-top: 300px;
+const Tech = styled.div`
+  @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300&display=swap");
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  color: #0099ff;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  ul {
     display: flex;
-    width: 70%;
-    margin: 0 auto;
+    flex-wrap: wrap;
+    font-size: 50px;
+    list-style-type: none;
+    flex-direction: row;
+    margin: 20px;
 
-    ul {
-      display: flex;
-      flex-wrap: wrap;
-      font-size: 50px;
-      list-style-type: none;
-      flex-direction: row;
-      margin: 20px;
-      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
-        0 10px 10px rgba(0, 0, 0, 0.22);
-      li {
-        padding: 20px;
-        color: #97d8b2;
-        div {
-          font-size: 20px;
-        }
+    li {
+      padding: 20px;
+      color: #0099ff;
+      div {
+        font-size: 20px;
       }
     }
-  `;
-  const Frontend = styled.div`
-    width: 50%;
-    z-index: 1;
-  `;
-  const Backend = styled.div`
-    width: 50%;
-    z-index: 1;
-  `;
-
+  }
+`;
+const Frontend = styled.div`
+  width: 50%;
+  z-index: 1;
+`;
+const Backend = styled.div`
+  width: 50%;
+  z-index: 1;
+`;
+const Technology = () => {
   return (
     <Tech>
       <Frontend>
@@ -114,6 +114,10 @@ const Technology = () => {
           <li>
             <SiPostgresql />
             <div>Postgresql</div>
+          </li>
+          <li>
+            <SiGithub />
+            <div>Github</div>
           </li>
         </ul>
       </Backend>

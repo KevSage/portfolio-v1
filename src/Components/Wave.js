@@ -3,10 +3,10 @@ import styled from "styled-components";
 
 const Wave = () => {
   const Design = styled.div`
-    position: absolute;
-    height: 70px;
-    width: 100%;
-    background: #e0efe3;
+    // position: absolute;
+    // height: 70px;
+    // width: 100%;
+    // background: #e0efe3;
   `;
   return (
     <Design>

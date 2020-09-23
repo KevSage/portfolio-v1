@@ -12,17 +12,18 @@ const Greeting = styled.div`
   text-align: left;
   margin-top: 50px;
   height: 100vh;
-  background-color: indigo;
-
+  background: linear-gradient(rgba(75, 0, 130, 0.98), rgba(75, 0, 130, 0.95)),
+    /* bottom, image */
+      url("https://images.unsplash.com/photo-1545968340-848cddd981ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
   p {
     font-family: "Audiowide", cursive;
-    color: royalblue;
+    color: #0099ff;
   }
   h2 {
     font-family: "Poppins", sans-serif;
     color: #97d8b2;
     span {
-      color: royalblue;
+      color: #0099ff;
     }
   }
 `;
@@ -33,7 +34,7 @@ const Intro = styled.div`
   font-size: 1.1rem;
   width: 50%;
   span {
-    color: royalblue;
+    color: #0099ff;
   }
   p {
     font-family: "Poppins", sans-serif;
@@ -49,7 +50,7 @@ const Button = styled.button`
   color: #97d8b2;
   padding: 1em 1em;
   &:hover {
-    background: royalblue;
+    background: #0099ff;
     color: #97d8b2;
     cursor: pointer;
   }

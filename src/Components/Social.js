@@ -3,12 +3,14 @@ import styled from "styled-components";
 import { FaGithub, FaYoutube, FaLinkedin } from "react-icons/fa";
 
 const Social_Menu = styled.div`
+  font-family: "Poppins", sans-serif;
+
   z-index: 1000;
   display: flex;
   position: fixed;
   flex-direction: column;
   margin-top: 400px;
-  color: royalblue;
+  color: #0099ff;
   font-size: 2.5rem;
   ul {
     list-style-type: none;
@@ -17,7 +19,7 @@ const Social_Menu = styled.div`
       margin: 10px 0;
     }
     li:hover {
-      color: royalblue;
+      color: #0099ff;
       border-bottom: 2px solid royalblue;
       transition-timing-function: ease-in;
       cursor: pointer;
