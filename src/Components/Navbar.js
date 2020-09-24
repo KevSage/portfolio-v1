@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-scroll";
 
 const Nav = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300&display=swap");
@@ -21,9 +22,8 @@ const Logo = styled.div`
   color: #0099ff;
   justify-content: flex-start;
   width: 50%;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: "Poppins", sans-serif;
-  top: 0px;
   letter-spacing: 5px;
 `;
 const Menu = styled.div`
@@ -53,14 +53,62 @@ const Navbar = () => {
   return (
     <Nav>
       <Logo classname="logo">
-        <h4>KEV SAGE</h4>
+        <Link
+          activeClass="active"
+          to="top"
+          spy={true}
+          smooth={true}
+          duration={1000}
+        >
+          KEV SAGE
+        </Link>
       </Logo>
       <Menu>
         <Menu_Items>
-          <li>About Me</li>
-          <li>Skills</li>
-          <li>Projects</li>
-          <li>Resume</li>
+          <li>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              About Me
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="resume"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              Resume
+            </Link>
+          </li>
         </Menu_Items>
       </Menu>
     </Nav>

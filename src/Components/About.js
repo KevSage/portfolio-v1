@@ -5,6 +5,9 @@ import Jazz from "../Media/jazz.png";
 import China from "../Media/chinasvg.png";
 import Coding from "../Media/code.png";
 
+const Header = styled.div`
+  height: 80px;
+`;
 const Bio = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300&display=swap");
   font-family: "Poppins", sans-serif;
@@ -62,36 +65,40 @@ const Code = styled.div`
 `;
 const About = () => {
   return (
-    <div className="hero">
-      <Bio>
-        <img src={Pic}></img>
-        <h2>ABOUT KEVIN</h2>
-        <p>
-          The study of music and my extensive travel abroad has provided an
-          astute understanding of the functionality and application of Language.
-          Syntax, pattern recognition and process, skills that I've acquired
-          from life experience translates exceptionally well to writing code.
-        </p>
-        <Interests>
-          <Music>
-            {/* <img src={Jazz}></img> */}
-            Originally from Tampa, FL. Attended Florida State University before
-            relocating to Dalian China. Worked as an English Teacher,
-            Saxophonist and Clinician.{" "}
-          </Music>
-          <Travel>
-            Originally from Tampa, FL. Attended Florida State University before
-            relocating to Dalian China. Worked as an English Teacher,
-            Saxophonist and Clinician.{" "}
-          </Travel>
-          <Code>
-            Originally from Tampa, FL. Attended Florida State University before
-            relocating to Dalian China. Worked as an English Teacher,
-            Saxophonist and Clinician.{" "}
-          </Code>
-        </Interests>
-      </Bio>
-    </div>
+    <>
+      <Header id="about"></Header>
+      <div className="hero">
+        <Bio>
+          <img src={Pic}></img>
+          <h2>ABOUT KEVIN</h2>
+          <p>
+            The study of music and my extensive travel abroad has provided an
+            astute understanding of the functionality and application of
+            Language. Syntax, pattern recognition and process, skills that I've
+            acquired from life experience translates exceptionally well to
+            writing code.
+          </p>
+          <Interests>
+            <Music>
+              {/* <img src={Jazz}></img> */}
+              Originally from Tampa, FL. Attended Florida State University
+              before relocating to Dalian China. Worked as an English Teacher,
+              Saxophonist and Clinician.{" "}
+            </Music>
+            <Travel>
+              Originally from Tampa, FL. Attended Florida State University
+              before relocating to Dalian China. Worked as an English Teacher,
+              Saxophonist and Clinician.{" "}
+            </Travel>
+            <Code>
+              Originally from Tampa, FL. Attended Florida State University
+              before relocating to Dalian China. Worked as an English Teacher,
+              Saxophonist and Clinician.{" "}
+            </Code>
+          </Interests>
+        </Bio>
+      </div>
+    </>
   );
 };
 export default About;

@@ -33,7 +33,7 @@ const Intro = styled.div`
   color: #97d8b2;
   // margin: 10px auto;
   font-size: 1.1rem;
-  width: 50%;
+  width: 40%;
   span {
     color: #0099ff;
   }
@@ -60,9 +60,8 @@ const Button = styled.button`
 
 const Main = () => {
   return (
-    <Greeting>
+    <Greeting id="top">
       <Intro>
-        <p>Hi, </p>
         <h2>My name is Kevin Sage.</h2>
         <h2>
           I specialize in <span>React</span> |{" "}
@@ -70,12 +69,12 @@ const Main = () => {
         </h2>
       </Intro>
       <Intro>
-        Lifelong <span>Jazz Musician. </span>
+        <span>Jazz Musician. </span>
         <span>Educator. </span>
         <span>World Traveller. </span>
         <span>Language Enthusiast. </span>
       </Intro>
-      <Button>Holla at me!</Button>
+      {/* <Button>Holla at me!</Button> */}
 
       {/* <div class="hero" id="tsparticles">
         <div className="w wave"></div>
